@@ -12,6 +12,7 @@ class MiApp0450 extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      color: Color(0xff416290),
       initialRoute: "/",
       routes: {
         "/": (context) => const Pantallaini_0450(),

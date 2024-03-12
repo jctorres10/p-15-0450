@@ -9,6 +9,7 @@ class Pantallaini_0450 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xff416290),
         title: const Text("Pagina Inicial Ceniceros 0450"),
       ),
       body: Center(
@@ -19,7 +20,7 @@ class Pantallaini_0450 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla1-0450");
               },
-              child: const Text('mover a pantalla 1')),
+              child: const Text('Ejemplo Card')),
           ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2-0450");

@@ -6,20 +6,22 @@ class Pantalla1_0450 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Pantalla1 Ceniceros 0450'),
-      ),
-      body: Center(
-          child: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-        children: [
-          ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, "/pantalla2-0450");
-              },
-              child: const Text('mover a pantalla 2')),
-        ],
-      )),
-    );
+        appBar: AppBar(
+          backgroundColor: const Color(0xff000000),
+          title: const Text('Pantalla1 Ceniceros 0450'),
+        ),
+        body: Center(
+          // Simple Card
+          child: Card(
+            color: Color(0xffa62424),
+            child: Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                'Pantalla 1 Ceniceros',
+                style: TextStyle(fontSize: 32, color: Color(0xff1f010f)),
+              ),
+            ),
+          ),
+        ));
   }
 }
