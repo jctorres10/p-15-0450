@@ -12,13 +12,14 @@ class Pantalla2_0450 extends StatelessWidget {
       ),
       body: Center(
         child: Container(
+          color: Color(0xff141414),
           width: double.infinity,
           height: 300,
           child: Card(
             color: Color(0xff20c549),
-            margin: EdgeInsets.all(32),
+            margin: EdgeInsets.all(42),
             child: Padding(
-              padding: EdgeInsets.all(16),
+              padding: EdgeInsets.all(62),
               child: Text(
                 'Pantalla 2 Ceniceros',
                 style: TextStyle(fontSize: 30, color: Color(0xff222222)),

@@ -20,12 +20,12 @@ class Pantallaini_0450 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla1-0450");
               },
-              child: const Text('Ejemplo Card')),
+              child: const Text('Ejemplo Card 1')),
           ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2-0450");
               },
-              child: const Text('mover a pantalla 2')),
+              child: const Text('Ejemplo Card 2')),
         ],
       )),
     );

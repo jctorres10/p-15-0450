@@ -19,6 +19,7 @@ class Pantalla1_0450 extends StatelessWidget {
               child: Text(
                 'Pantalla 1 Ceniceros',
                 style: TextStyle(fontSize: 32, color: Color(0xff1f010f)),
+                textAlign: TextAlign.center,
               ),
             ),
           ),
