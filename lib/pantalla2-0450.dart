@@ -8,22 +8,26 @@ class Pantalla2_0450 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xff000000),
-        title: Text('Pantalla2 Ceniceros 0450'),
+        title: Text(
+          'Pantalla2-constraints-Ceniceros-0450',
+          style: TextStyle(fontSize: 15),
+        ),
       ),
       body: Center(
         child: Container(
-          color: Color(0xff141414),
-          width: double.infinity,
-          height: 300,
-          child: Card(
-            color: Color(0xff20c549),
-            margin: EdgeInsets.all(42),
-            child: Padding(
-              padding: EdgeInsets.all(62),
-              child: Text(
-                'Pantalla 2 Ceniceros',
-                style: TextStyle(fontSize: 30, color: Color(0xff222222)),
-              ),
+          color: Color(0xffd1d9d1),
+          constraints: BoxConstraints(
+            minHeight: 150,
+            minWidth: 300,
+            maxHeight: 320,
+            maxWidth: 320,
+          ),
+          padding: EdgeInsets.all(50),
+          child: Text(
+            'Ceniceros-0450',
+            style: TextStyle(
+              fontSize: 30,
+              color: Color(0xff521933),
             ),
           ),
         ),
