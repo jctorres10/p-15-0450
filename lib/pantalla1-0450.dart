@@ -6,23 +6,28 @@ class Pantalla1_0450 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          backgroundColor: const Color(0xff000000),
-          title: const Text('Pantalla1 Ceniceros 0450'),
+      appBar: AppBar(
+        backgroundColor: const Color(0xff000000),
+        title: const Text(
+          'Pantalla1-Conteiner-Ceniceros-0450',
+          style: TextStyle(fontSize: 15),
         ),
-        body: Center(
-          // Simple Card
-          child: Card(
-            color: Color(0xffa62424),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Pantalla 1 Ceniceros',
-                style: TextStyle(fontSize: 32, color: Color(0xff1f010f)),
-                textAlign: TextAlign.center,
-              ),
-            ),
+      ),
+      body: Center(
+        child: Container(
+          color: Color(0xffafd2b0),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 10),
+          alignment: Alignment.center,
+          child: Text(
+            'Ceniceros-0450',
+            style: TextStyle(fontSize: 30),
           ),
-        ));
+        ),
+      ),
+    );
   }
 }
+
